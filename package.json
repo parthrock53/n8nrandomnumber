@@ -1,0 +1,17 @@
+{
+  "name": "n8n-nodes-random-number-generator",
+  "version": "1.0.0",
+  "description": "An n8n community node to generate random numbers between a given range.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": ["n8n-community-node", "random-number"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "n8n-core": "^1.0.0",
+    "n8n-workflow": "^1.0.0"
+  }
+}
